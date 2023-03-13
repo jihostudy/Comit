@@ -1,0 +1,23 @@
+*{
+    box-sizing:border-box;
+}
+h1{
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Nanum Pen Script', cursive;
+}
+.food{
+    border : 3px solid rgb(0,9,9);
+    width : 700px;
+    text-align : center;
+    border : 3px solid black;
+}
+.tools{
+    list-style-image : inherit;
+}
+.making{
+    background-image: url('../css/images/떡볶이.jpg');
+    background-color : #FFF;
+    width:600px;
+    margin : 20px auto;
+    padding : 10px;
+}
