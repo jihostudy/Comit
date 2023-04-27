@@ -6,18 +6,29 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Nanum+Pen+Script&family=Poor+Story&family=Song+Myung&display=swap" rel="stylesheet">
+    <link href="#" rel="stylesheet">
+    <link href="images/떡볶이.jpg" rel="stylesheet">
 </head>
-<body>        
+<body>
+    <nav id="topMenu">
+        <ul>
+            <li><a class="menuLink" href="views/eat.html">맛있따</a></li>
+            <li><a class="menuLink" href = "recipe/eat.html">하하</a></li>
+            <li><a class="menuLink" href = "#">아몰랑</a></li>
+            <li><a class="menuLink" href = "https://www.youtube.com/watch?v=t4Es8mwdYlE">그냥이거봐</a></li>
+        </ul>
+    </nav>        
     <div id="container">
         <header id="title">
             <h1>떡볶이 재료 만들기<a href="https://www.youtube.com/watch?v=t4Es8mwdYlE" target="_blank"><img src = "images/떡볶이.jpg" alt="떡볶이 사진" width="40px"></a></h1>
         </header>
-
+        <section id="cotents">
+           <!--<a href = "#class명을 주면 웹페이지 내에서 이동할 수 있는 링크를 생성가능"--> 
+        </section>
         <section id="food">
             <h2>재료</h2>
             <table>
-                <caption style="font-size: x-large;">나만 먹는 1인분</caption>
+                <caption style="font-size: 25px;">나만 먹는 1인분</caption>
                 <tr>
                     <th>재료</th>
                     <td>떡볶이떡</td>
@@ -40,20 +51,21 @@
                 </tr>
             </table>    
         </section>
-
+        
+        <hr size="3" color="black" noshade width="100%">
         <section id="tools">
             <h2>도구</h2>
             <ul>
                 <li>식칼</li>
                 <li>도마</li>
-                <li>냄비</li>
+                <li>냄비</li>                
             </ul>
         </section>
-        
+        <hr size="3" color="black" noshade width="100%">
         <section id="sequence">
             <h2>만드는 순서</h2>
             <ol start="0" type="I">
-                <li>(매우 배고픈 상태를 유지한다.)</li>
+                <li>(매우 배고픈 상태를    &nbsp; 유지한다.)</li>
                 <li>설탕 3스푼, 고추장 2스푼, 간장 2스푼, 고춧가루 1.5스푼 넣고 섞어준다</li>
                 <li>떡, 어묵 대파를 먹기 좋은 크기로 잘라준다</li>
                 <li>냄비에 떡과 어묵을 넣고 물2컵을 넣은 후 양념과 함께 끓여준다</li>
@@ -62,5 +74,18 @@
             </ol>
         </section>
     </div>
+    <script>
+        function getElements(){
+            var ul = document.getElementsByTagName('ui')[0];
+            var lis = ul.getElementsByTagName('li');
+            for(var i = 0; lis.length; i++){
+                lis[i].style.color = 'red';
+            }
+        }
+    </script>
+    
 </body>
 </html>
+
+
+
